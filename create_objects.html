@@ -1,0 +1,23 @@
+<!doctype httml>
+<head>
+	<title>X</title>
+</head>
+<body>
+	<script>
+		const getWorldTotal = async () => {
+	        const responseTeam = await fetch('https://script.google.com/macros/s/AKfycbyGvojp45AwMa5ovpBjTm0QGtS5TZmVkw41r_sOhCQiV3MyoAXNhCPwQNJQHwhMQ_BH6A/exec?worker=getData&type=raw&sheet=Team');
+            const dataTeam = await responseTeam.json();
+            // for(let i=0;i<dataTeam.length;i++){
+            //      console.log(dataTeam[i]);
+            // }
+            const peopleObjects = dataTeam;
+            .map(([name, phone, email]) => ({ name, phone, email }));
+            console.log(peopleObjects);
+    // const result=JSON.parse(dataTeam);
+
+    // console.log(dataTeam[2].image);
+    // const leadershipTeam={}
+};
+	</script>
+</body>
+</html>

@@ -119,8 +119,8 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li class="dropdown"><a href="index.html">Pages</a>
+                                    <li id="navHome"><a href="index.html">Home</a></li>
+                                    <!-- <li class="dropdown"><a href="index.html">Pages</a>
                                         <ul>
                                             <li><a href="about.html">About Us</a></li>
                                             <li><a href="research.html">Projects</a></li>
@@ -131,12 +131,13 @@
                                             <li><a href="faq.html">Faq's</a></li>
                                             <li><a href="error.html">404</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a href="index.html">Team</a></li> 
-                                    <li><a href="index-2.html">Events</a></li>  
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                    <li ><a href="blog.html">Blog</a></li>  
-                                    <li><a href="contact.html">Contact</a></li>   
+                                    </li> -->
+                                    <li id="navResearch"><a href="research.html">Research</a></li>
+                                    <li id="navTeam"><a href="team-element-2.html">Teams</a></li> 
+                                    <li id="navGrants"><a href="books.html">Grants</a></li>  
+                                    <li id="navEvents"><a href="index.html">Events</a></li>
+                                    <!-- <li ><a href="blog.html">Blog</a></li>  --> 
+                                    <li id="navContact"><a href="contact.html">Contact Us</a></li>   
                                 </ul>
                             </div>
                         </nav>
@@ -1288,16 +1289,16 @@
                                 <div class="text">
                                     <p>Nostrud exertation ullamco labor aliquip commodo duis.</p>
                                     <ul class="info clearfix">
-                                        <li><i class="icon-26"></i>Flat 20, Reynolds Neck, <br />FV77 8WS</li>
-                                        <li><i class="icon-24"></i>Call Us: <a href="tel:3336660001">333-666-0001</a></li>
-                                        <li><i class="icon-25"></i><a href="mailto:info@example.com">info@example.com</a></li>
+                                        <li id="footerAddress"><i class="icon-26"></i>Flat 20, Reynolds Neck, <br />FV77 8WS</li>
+                                        <li id="footerPhone"><i class="icon-24"></i>Call Us: <a href="tel:3336660001">333-666-0001</a></li>
+                                        <li id="footerMail"><i class="icon-25"></i><a href="mailto:info@example.com">info@example.com</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget post-widget ml-70">
-                                <div class="widget-title">
+                                <div class="widget-title events">
                                     <h4>Latest Events</h4>
                                 </div>
                                 <div class="post-inner">
@@ -1318,17 +1319,17 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget links-widget ml-70">
-                                <div class="widget-title">
+                                <div class="widget-title useful-link">
                                     <h4>Usefull Link</h4>
                                 </div>
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
-                                        <li><a href="index-2.html">About Company</a></li>
-                                        <li><a href="index-2.html">Services</a></li>
-                                        <li><a href="index-2.html">How It Works</a></li>
-                                        <li><a href="index-2.html">Our Blog</a></li>
-                                        <li><a href="index-2.html">Contact Us</a></li>
-                                        <li><a href="index-2.html">Policy</a></li>
+                                        <li id="footer-about"><a href="index.html">About Company</a></li>
+                                        <li id="footer-research"><a href="index.html">Research</a></li>
+                                        <!-- <li id="footer-about"><a href="index-2.html">How It Works</a></li> -->
+                                       <!--  <li><a href="index-2.html">Our Blog</a></li> -->
+                                        <li id="footer-Grants"><a href="index.html">Grants</a></li>
+                                        <li id="footer-contact"><a href="index.html">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1384,6 +1385,7 @@
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/nav-tool.js"></script>
     <script src="assets/js/jquery.paroller.min.js"></script>
+    <script src="assets/js/semi-dynamic.js"></script>
 
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
